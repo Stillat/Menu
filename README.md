@@ -1,4 +1,4 @@
 Menu
 ====
 
-Menu builder component for Larave
+Menu builder component for Laravel
