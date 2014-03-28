@@ -88,6 +88,17 @@ class MenuManager {
 	}
 
 	/**
+	 * Sets the renderer implementation.
+	 * 
+	 * @param  \Stillat\Menu\Renderers\RendererInterface $renderer
+	 * @return void
+	 */
+	public function setRenderer(RendererInterface $renderer)
+	{
+		$this->renderer = $renderer;
+	}
+
+	/**
 	 * Renders a menu by name.
 	 *
 	 * @return mixed
