@@ -21,7 +21,7 @@ class MenuServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('stillat/menu', 'stillat');
+		$this->package('stillat/menu', 'stillat-menu');
 	}
 
 	/**
